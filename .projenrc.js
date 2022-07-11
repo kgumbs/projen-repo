@@ -12,6 +12,5 @@ const project = new awscdk.AwsCdkConstructLibrary({
   npmAccess: NpmAccess.PUBLIC,
   npmRegistryUrl: 'https://npm.pkg.github.com',
   releaseToNpm: true,
-  publishDryRun: true,
 });
 project.synth();
