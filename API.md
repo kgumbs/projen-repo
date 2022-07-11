@@ -1,21 +1,35 @@
 # API Reference <a name="API Reference" id="api-reference"></a>
 
+## Constructs <a name="Constructs" id="Constructs"></a>
 
+### LambdaConstruct <a name="LambdaConstruct" id="projen-repo.LambdaConstruct"></a>
 
-## Classes <a name="Classes" id="Classes"></a>
+A CDK construct to create Lambda functions.
 
-### Hello <a name="Hello" id="projen-repo.Hello"></a>
-
-#### Initializers <a name="Initializers" id="projen-repo.Hello.Initializer"></a>
+#### Initializers <a name="Initializers" id="projen-repo.LambdaConstruct.Initializer"></a>
 
 ```typescript
-import { Hello } from 'projen-repo'
+import { LambdaConstruct } from 'projen-repo'
 
-new Hello()
+new LambdaConstruct(parent: Construct, name: string)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#projen-repo.LambdaConstruct.Initializer.parameter.parent">parent</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#projen-repo.LambdaConstruct.Initializer.parameter.name">name</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `parent`<sup>Required</sup> <a name="parent" id="projen-repo.LambdaConstruct.Initializer.parameter.parent"></a>
+
+- *Type:* constructs.Construct
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="projen-repo.LambdaConstruct.Initializer.parameter.name"></a>
+
+- *Type:* string
 
 ---
 
@@ -23,15 +37,63 @@ new Hello()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-repo.Hello.sayHello">sayHello</a></code> | *No description.* |
+| <code><a href="#projen-repo.LambdaConstruct.toString">toString</a></code> | Returns a string representation of this construct. |
 
 ---
 
-##### `sayHello` <a name="sayHello" id="projen-repo.Hello.sayHello"></a>
+##### `toString` <a name="toString" id="projen-repo.LambdaConstruct.toString"></a>
 
 ```typescript
-public sayHello(): string
+public toString(): string
 ```
+
+Returns a string representation of this construct.
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#projen-repo.LambdaConstruct.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="projen-repo.LambdaConstruct.isConstruct"></a>
+
+```typescript
+import { LambdaConstruct } from 'projen-repo'
+
+LambdaConstruct.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="projen-repo.LambdaConstruct.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#projen-repo.LambdaConstruct.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="projen-repo.LambdaConstruct.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
 
 
 
