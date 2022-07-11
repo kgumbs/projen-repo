@@ -8,6 +8,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
   packageName: '@kgumbs/projen-repo',
   repositoryUrl: 'https://github.com/kgumbs/projen-repo.git',
   npmRegistryUrl: 'https://npm.pkg.github.com',
-  releaseToNpm: true
+  releaseToNpm: true,
 });
 project.synth();
